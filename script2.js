@@ -89,6 +89,7 @@ let newg=document.querySelector("#btn1");
 newg.addEventListener("click",()=>{
     document.getElementById("scoreboard").innerText =
         `X : 0 | O : 0`;
+        xwins=0;owins=0;
     resetBoard();
 })
 let res=document.querySelector("#btn2");
